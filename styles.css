@@ -63,11 +63,11 @@ li {
 }
 
 li div {
-  flex: 1;
+  flex: 1; /*Grow/shrink evenly to fill available space. more than 1 would grow proportionally more than other flex items*/
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
-  min-width: 0;
+  min-width: 0; /* Allows the element to shrink all the way down to min-width */
 } 
 
 
